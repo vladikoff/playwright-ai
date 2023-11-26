@@ -1,0 +1,27 @@
+{
+  "name": "playwright-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "type": "module",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.5.4",
+    "axios": "^1.6.2",
+    "chatgpt": "^5.2.5",
+    "debug": "^4.3.4",
+    "execa": "^8.0.1",
+    "listr": "^0.14.3",
+    "lodash": "^4.17.21",
+    "rxjs": "^7.8.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  }
+}
