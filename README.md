@@ -31,6 +31,8 @@ playwright-ai --endpoint=https://example.com --model=claude --tests=1
 
 - After the CLI is done, it will generate the tests into the Playwright test directory. As the tests generate, the CLI will have both passing and failing tests. The failing tests will have to be manually fixed by the user of the tool.
 
+<img src="assets/pw-demo.gif" alt="playwright-ai demo" />
+
 ## Core Options
 
 ### --endpoint (-e) :: `String`
