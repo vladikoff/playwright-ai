@@ -9,6 +9,9 @@
   "bin": "./index.js",
   "type": "module",
   "author": "",
+  "engines": {
+    "node": ">=20"
+  },
   "license": "MIT",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.5.4",
