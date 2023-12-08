@@ -1,4 +1,5 @@
-# playwright-ai
+# playwright-ai [![](https://img.shields.io/npm/v/playwright-ai)](https://www.npmjs.com/package/playwright-ai)
+
 
 > Command-line utility to generate LLM-based [Playwright](https://playwright.dev/) tests
 
