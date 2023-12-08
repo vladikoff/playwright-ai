@@ -43,10 +43,10 @@ The endpoint option specifies the API endpoint to call. `playwright-ai` will bro
 
 ### --model (-m) :: `String`
 
-_Default_: `gpt4`.
+_Default_: `gpt-4`.
 
 The LLM model to use to generate the tests.
-Available options: `gpt3`, `gpt4`, `claude`.
+Available options: `gpt-3`, `gpt-4`, `claude`.
 
 ### --tests (-t) :: `Number`
 
@@ -67,6 +67,11 @@ Shows CLI version.
 ## Release History
 
 See the [CHANGELOG.md](CHANGELOG.md).
+
+## TODO
+
+- Support for other models
+- More complex test cases
 
 ## License
 
