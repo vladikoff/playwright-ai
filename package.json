@@ -1,6 +1,6 @@
 {
   "name": "playwright-ai",
-  "version": "2.0.0",
+  "version": "2.0.0-alpha.0",
   "description": "Command-line utility that generates Playwright end-to-end tests from a web page using Claude or OpenAI models",
   "main": "index.js",
   "type": "module",

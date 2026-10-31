@@ -22,7 +22,7 @@ describe("cli", () => {
   test("--version prints the package version", async () => {
     const { code, stdout } = await run(["--version"]);
     assert.equal(code, 0);
-    assert.equal(stdout.trim(), "2.0.0");
+    assert.equal(stdout.trim(), "2.0.0-alpha.0");
   });
 
   test("--help lists the main options", async () => {
