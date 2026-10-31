@@ -1,2 +1,7 @@
 node_modules
 .idea
+.DS_Store
+test-results/
+playwright-report/
+reports/
+*.log
