@@ -15,10 +15,10 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "node --test test/",
-    "test:watch": "node --test --watch test/",
-    "test:e2e": "node --test e2e/",
-    "test:all": "node --test test/ e2e/",
+    "test": "node --test \"test/**/*.test.js\"",
+    "test:watch": "node --test --watch \"test/**/*.test.js\"",
+    "test:e2e": "node --test \"e2e/**/*.test.js\"",
+    "test:all": "node --test \"test/**/*.test.js\" \"e2e/**/*.test.js\"",
     "lint": "prettier --check \"**/*.{js,md,json}\"",
     "format": "prettier --write \"**/*.{js,md,json}\""
   },
