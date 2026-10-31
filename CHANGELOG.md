@@ -1,4 +1,4 @@
-# 2.0.0-alpha.0 - Unreleased
+# 2.0.0 - October 31, 2026
 
 Rewrite of the generator around current model APIs, with a real test suite.
 
