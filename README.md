@@ -1,4 +1,4 @@
-# playwright-ai [![](https://img.shields.io/npm/v/playwright-ai)](https://www.npmjs.com/package/playwright-ai)
+# playwright-ai [![npm](https://img.shields.io/npm/v/playwright-ai)](https://www.npmjs.com/package/playwright-ai) [![CI](https://github.com/vladikoff/playwright-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/vladikoff/playwright-ai/actions/workflows/ci.yml)
 
 > Command-line utility that generates [Playwright](https://playwright.dev/) end-to-end tests for a web page with Claude or OpenAI models.
 
