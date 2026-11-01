@@ -4,10 +4,12 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { createRequire } from "node:module";
 
 const exec = promisify(execFile);
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const bin = path.join(root, "index.js");
+const { version } = createRequire(import.meta.url)("../package.json");
 
 async function run(args) {
   try {
@@ -22,7 +24,7 @@ describe("cli", () => {
   test("--version prints the package version", async () => {
     const { code, stdout } = await run(["--version"]);
     assert.equal(code, 0);
-    assert.equal(stdout.trim(), "2.0.0-alpha.0");
+    assert.equal(stdout.trim(), version);
   });
 
   test("--help lists the main options", async () => {
